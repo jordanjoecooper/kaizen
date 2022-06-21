@@ -2,6 +2,12 @@
 Binary Search 
 
 - Only works when given list is in a sorted order.
+- Works by dividing the list in half and comparing the key to the middle element.
+- If the key is equal to the middle element, the search is successful.
+- If the key is less than the middle element, the search continues on the left side of the list.
+- If the key is greater than the middle element, the search continues on the right side of the list.
+- If the key is not found, the search is unsuccessful.
+- The number of steps taken to find the key is the number of steps taken to find the middle element.
 */
 
 const list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11,
