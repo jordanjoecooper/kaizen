@@ -10,27 +10,4 @@ Sort them using bubblesort into their ascending order 0-10
 What does sort do?
 
 Sorts an array in place. This method mutates the array and returns a reference to the same array.
-
-@param compareFn
-Function used to determine the order of the elements. 
-It is expected to return a negative value if the first argument is less than the second argument, 
-zero if they're equal, and a positive value otherwise. 
-If omitted, the elements are sorted in ascending, ASCII character order.
-
-Improvement make initial arr randomly generated each time?
-
 */
-
-// const generateTestData = () => {
-//     const limit = 1000
-//     const container = []
-//     let i = 0;
-//     for(i; i < limit; i++){
-//         console.log(i)
-//         const number = Math.random(5).toPrecision
-//         container.push(number)
-//     }
-//     return container
-// }
-
-// console.log(generateTestData())
