@@ -11,6 +11,5 @@ const convertCelsiusToFahrenheit = (celsius) => {
   return fahrenheit;
 }
 
-convertCelsiusToFahrenheit(30);
 convertCelsiusToFahrenheit(-111);
 convertCelsiusToFahrenheit(111);
